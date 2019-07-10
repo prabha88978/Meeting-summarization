@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meeting Summarization API</title>
+	<style type="text/css">
+		body{
+			
+			margin : 0;
+		}
+		h1{
+			text-align: center;
+			font-size: 50px;
+			color: gray;
+		}
+		form{
+			margin: 20px auto;
+			text-align : center;
+		}
+		textarea{
+			border: 2px solid green;
+			text-align: center;
+		}
+		input[type="submit"]{
+    		width: 330px;
+    		height: 45px;
+    		background: none;
+    		color: blue;
+    		border-radius: 16px;
+    		border-color: red;
+    		cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<form action="/upload" method="POST">
+			<h1>Meeting Summarization </h1>
+			<textarea name="meeting_text" id="meeting_text" rows="30" cols="100" placeholder="Paste the transcripts here."></textarea>
+			<br><br>
+			<input type="submit" name="submit" value="Click here for Summary">
+		</form>
+	</center>
+</body>
+</html>

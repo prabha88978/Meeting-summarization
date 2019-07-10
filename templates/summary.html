@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>summary</title>
+	<style type="text/css">
+		p{
+			text-align : center;
+			font-size: 30px;
+		}
+		h2{
+			text-align: center;
+			color: steelblue;
+		}
+		div{
+			margin-top: 30px;
+		}
+		input[type="submit"]{
+    		width: 230px;
+    		height: 45px;
+    		background: gray;
+    		color: white;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h2>summary:::</h2>
+		<p style=color:green> {{ summary }} </p>
+	</div>
+	<form action="/home" method="POST">
+    	<input type="submit" name="submit" value="Try another summary"></button>
+	</form>
+</body>
+</html>
