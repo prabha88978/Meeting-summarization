@@ -14,7 +14,7 @@ We build a local API which takes meeting's text as input and generates the summa
 
 # Dataset Links:
 CNN/Daily mail   : https://drive.google.com/open?id=1uWoNdU7EDF1KbIivxfESzT51NEEsLVII  
-NewsROom 	     : https://summari.es/download/  
+NewsRoom 	     : https://summari.es/download/  
 Word-Embeddings  : https://drive.google.com/open?id=1qxBKLczcqA5Y682SpZhWX6Z_COrNjMDj. [GloVe embeddings]
 
 # FIle Description:   
