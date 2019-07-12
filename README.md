@@ -19,4 +19,4 @@ Word-Embeddings  : https://drive.google.com/open?id=1qxBKLczcqA5Y682SpZhWX6Z_COr
 
 # FIle Description:   
 Train the model : To train the model run "Training.ipynb"  
-Afte training the model start the Flask server to open the API  To run the server : execute "flask_backend.py" then go to browser type "http://localhost:5000" , you get the interface where you can give you input(Meeting conversation in text format)  By clicking on 'click here for summary' button you get the summary of meeting.
+Afte training the model start the Flask server to open the API  To run the server : execute "flask_backend.py" then go to browser type "http://localhost:5000" , you get the interface where you can give you input(Meeting conversation in text format). By clicking on 'click here for summary' button you get the summary of meeting.
